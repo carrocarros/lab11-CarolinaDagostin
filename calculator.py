@@ -1,4 +1,13 @@
 import math
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except ValueError:
+        print("Invalid input.")
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
+
 def add(a, b):
     return a + b
 
@@ -18,8 +27,7 @@ def log(a, b):
     try:
         return math.log(a, b)
     except ValueError:
-        print(f"Invalid input.")
+        print("Invalid input.")
 
 def exp(a, b):
     return a**b
-#meow
