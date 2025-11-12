@@ -14,7 +14,7 @@ def hypotenuse(a, b):
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
@@ -25,12 +25,8 @@ def div(a, b):
         raise ZeroDivisionError("Cannot divide by zero.")
     return b / a
 
-def log(a, b):
-    try:
-        return math.log(a, b)
-    except ValueError:
-        print("Invalid input.")
-        return None
+def logarithm(a, b):
+    return math.log(a, b)
 
 def exp(a, b):
     return a**b
