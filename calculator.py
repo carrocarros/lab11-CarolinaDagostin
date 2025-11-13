@@ -1,5 +1,5 @@
 # https://github.com/carrocarros/lab11-CarolinaDagostin
-# Carolina Dagostin
+# Partner 1: Carolina Dagostin
 # No partner since there was an odd number in the class
 
 import math
